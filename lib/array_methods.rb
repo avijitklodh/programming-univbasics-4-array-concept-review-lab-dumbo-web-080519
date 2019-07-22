@@ -12,8 +12,8 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  array.sort 
-  array[-1]
+ new_array = array.sort 
+  new_array[-1]
 
 end
 
