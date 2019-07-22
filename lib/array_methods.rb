@@ -18,9 +18,9 @@ def find_max_value(array)
       return i
     elsif
       i = i+1
-    end 
+    end
+    array [i]
   end
-  return array [i]
 end
 def find_min_value(array)
   # Add your solution here
